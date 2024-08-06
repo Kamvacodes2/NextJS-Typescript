@@ -4,7 +4,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 import { Inter, Space_Grotesk } from "next/font/google";
 import type { Metadata } from "next";
 import "./globals.css";
-import { ThemeProvider } from "@/context/ThemeProvider";
+import ThemeProvider from "@/context/ThemeProvider";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -19,7 +19,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Marketer Flow",
+  title: "Dev Exchange",
   description: `A dedicated platform for digital marketers and SEO experts,
    providing them with a space to share knowledge, tools, 
    and resources, and to stay updated with industry trends.
